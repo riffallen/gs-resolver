@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "GS URL Redirector",
+  "version": "1.0",
+  "description": "Redirects gs paths to GCP Storage browser",
+  "permissions": ["tabs"],
+  "omnibox": {
+    "keyword": "gs"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
